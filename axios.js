@@ -1,0 +1,1 @@
+import axios from 'axios';const instance = axios.create({    withCredentials: true,})axios.defaults.headers.get['Content-Type'] ='application/json;charset=utf-8';axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*'export default instance;
